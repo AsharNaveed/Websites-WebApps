@@ -1,0 +1,115 @@
+{% load static %}
+
+<html>
+    <head>
+        <title>Portfolio</title>
+        <link href="{% static '/css/main.css' %}" rel="stylesheet" type="text/css">
+        <link rel="stylesheet"
+              href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+              integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+              crossorigin="anonymous">
+        <link rel="stylesheet"
+              href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <br>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="card card-body h-100 border-info" id="profile-wrapper">
+                        <img id="profile-pic" src="{% static 'images/me2.png' %}">
+                        <hr>
+                        <h4>Hi, I'm Ashar!</h4>
+                        <h5>Computer Scientist</h5>
+                        <p>I love coding and exploring new ideas about technology</p>
+                    </div>
+                </div>
+                <div class="col-md-9">
+                    <div class="card card-body h-100 border-info">
+                        <h4>Personal Description</h4>
+                        <hr>
+                        <p>A hardworking student who is known for fast typing skills and
+                            exceptional focus. Adept at completing projects with minimal
+                            supervision. Offering exceptional communication and interpersonal
+                            skills. Potential learner and provides good support when working
+                            well in a team.</p>
+                        <ul>
+                            <a href="https://www.facebook.com/AsharNaveed96/" class="fa fa-facebook"></a>
+                            <a href="https://www.instagram.com/asharafc19/" class="fa fa-instagram"></a>
+                            <a href="https://www.linkedin.com/in/ashar-naveed-051b50b2/"
+                               class="fa fa-linkedin"></a>
+                            <a href="https://github.com/AsharNaveed" class="fa fa-github"></a>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="card card-body h-100">
+                        <h4>My Experience</h4>
+                        <hr>
+                        <p>
+                            In the past, I used to work
+                            as a Data-Entry Operator at MATSOL Technologies and Patari
+                            Musics. Also! I worked as an Intern of Quality Assurance
+                            Analyst and a Web Developer at NETTECH PVT Ltd.
+                        </p>
+                        <p>Currently, I'm working on improving myself by exploring new
+                            ideas about up-coming technologies and learning new skills
+                            i.e; Learning A.I, Flutter and improving Python language.</p>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card card-body h-100">
+                        <h4>What I know</h4>
+                        <hr>
+                        <p>Python Programming, Java-Programming(basic), C & C++ Programming,
+                            Adobe Photoshop, Adobe Illustrator, Unity with C# Programming,
+                            SQL Programming, Website Design & Development (Front-end),
+                            DJANGO, Flutter.</p>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="card card-body h-100">
+                        <h4>What I can do</h4>
+                        <hr>
+                        <p>
+                            I can collaborate with different teams and work with them on projects.
+                            I can create and manage projects based on websites, web-applications,
+                            mobile applications etc.
+                            I provide good support in helping others.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card card-body h-100">
+                        <h4>My Goals</h4>
+                        <hr>
+                        <p>
+                            I want to educate myself further-more about new technologies,
+                            Artificial Intelligence, and to learn more from the people who
+                            have more experience, knowledge than me.
+                        </p>
+                        <p>
+                            As much as I appreciate programming, I'd also prefer working in
+                            environment that'd help me gain experience related to various
+                            fields in Computer Science.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+      <!--  <div class="loader-wrapper">
+            <span class="loader"><span class="loader-inner"></span></span>
+        </div>
+        <script>
+            $(window).on("load",function(){
+                $(".loader-wrapper").fadeOut("slow");
+            });
+        </script> -->
+    </body>
+</html>
